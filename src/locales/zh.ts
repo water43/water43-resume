@@ -121,7 +121,6 @@ export const zh = {
     {
       school: '华南师范大学',
       degree: '本科',
-      period: '2013.09 ~ 2017.06',
       major: '计算机科学与技术'
     }
   ],

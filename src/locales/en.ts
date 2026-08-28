@@ -121,7 +121,6 @@ export const en = {
     {
       school: 'South China Normal University',
       degree: 'Bachelor\'s Degree',
-      period: '2013.09 - 2017.06',
       major: 'Computer Science and Technology'
     }
   ],

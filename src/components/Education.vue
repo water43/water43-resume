@@ -27,7 +27,6 @@ const educations = computed(() => tm('education') as Education[])
         <div class="education-content">
           <div class="education-header">
             <h3 class="school">{{ edu.school }}</h3>
-            <span class="period">{{ edu.period }}</span>
           </div>
           <div class="education-details">
             <span class="degree">{{ edu.degree }}</span>
