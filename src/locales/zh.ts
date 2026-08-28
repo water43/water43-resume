@@ -9,7 +9,7 @@ export const zh = {
     status: '在职-月内到岗',
     location: '广州',
     phone: '15999562336',
-    email: '776025632@qq.com',
+    email: '776025632{"@"}qq.com',
     education: '本科',
     summary: '专注于电力数字化、GIS可视化与数据大屏领域的高级前端开发工程师。精通 Vue3 + TypeScript 技术体系，具备大型企业级系统架构设计能力，主导过多个省级电网项目的前端建设。擅长 WebGIS 地图可视化、微前端架构与组件库建设，具有丰富的 ToB/ToG 项目交付经验。'
   },
