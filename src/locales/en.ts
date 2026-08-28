@@ -17,6 +17,7 @@ export const en = {
     experience: 'Work Experience',
     projects: 'Project Experience',
     education: 'Education',
+    certificates: 'Certificates',
     skills: 'Professional Skills'
   },
   experience: [
@@ -118,16 +119,20 @@ export const en = {
   ],
   education: [
     {
-      school: 'South China Normal University (Online)',
+      school: 'South China Normal University',
       degree: 'Bachelor\'s Degree',
       period: '2013.09 - 2017.06',
       major: 'Computer Science and Technology'
+    }
+  ],
+  certificates: [
+    {
+      name: 'PMP - Project Management Professional',
+      issuer: 'PMI'
     },
     {
-      school: 'Guangdong Mechanical & Electrical Polytechnic',
-      degree: 'Associate Degree',
-      period: '2013.01 - 2016.01',
-      major: 'Software Technology'
+      name: 'Artificial Intelligence Level 3',
+      issuer: 'MIIT'
     }
   ],
   skills: [

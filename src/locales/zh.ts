@@ -17,6 +17,7 @@ export const zh = {
     experience: '工作经历',
     projects: '项目经历',
     education: '教育经历',
+    certificates: '专业证书',
     skills: '专业技能'
   },
   experience: [
@@ -118,16 +119,20 @@ export const zh = {
   ],
   education: [
     {
-      school: '华南师范大学网络教育学院',
+      school: '华南师范大学',
       degree: '本科',
       period: '2013.09 ~ 2017.06',
       major: '计算机科学与技术'
+    }
+  ],
+  certificates: [
+    {
+      name: 'PMP 项目管理专业人士认证',
+      issuer: 'PMI'
     },
     {
-      school: '广东机电职业技术学院',
-      degree: '大专',
-      period: '2013.01 ~ 2016.01',
-      major: '软件技术'
+      name: '人工智能三级',
+      issuer: '工信部'
     }
   ],
   skills: [

@@ -5,6 +5,7 @@ import ResumeHeader from './components/ResumeHeader.vue'
 import Experience from './components/Experience.vue'
 import Projects from './components/Projects.vue'
 import Education from './components/Education.vue'
+import Certificates from './components/Certificates.vue'
 import Skills from './components/Skills.vue'
 
 const { locale } = useI18n()
@@ -36,6 +37,7 @@ function printResume() {
       <Experience />
       <Projects />
       <Education />
+      <Certificates />
       <Skills />
     </main>
     
