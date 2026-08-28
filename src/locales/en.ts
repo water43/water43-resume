@@ -9,7 +9,7 @@ export const en = {
     status: 'Available in 1 month',
     location: 'Guangzhou',
     phone: '15999562336',
-    email: '776025632{"@"}qq.com',
+    email: '776025632(at)qq.com',
     education: 'Bachelor\'s Degree',
     summary: 'Senior Frontend Developer specializing in power digitalization, GIS visualization, and data dashboards. Expert in Vue3 + TypeScript ecosystem with enterprise architecture design capabilities. Led frontend development for multiple provincial power grid projects. Skilled in WebGIS map visualization, micro-frontend architecture, and component library development with extensive ToB/ToG project delivery experience.'
   },
