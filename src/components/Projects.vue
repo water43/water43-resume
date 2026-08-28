@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import type { Project } from '../types/resume'
+
+interface Project {
+  name: string
+  period: string
+  tags?: string[]
+  description: string
+}
 
 const { t, tm } = useI18n()
 const showAll = ref(false)
@@ -27,13 +33,26 @@ const displayedProjects = computed(() =>
           <h3 class="project-name">{{ project.name }}</h3>
           <span class="project-period">{{ project.period }}</span>
         </div>
+        <div class="project-tags" v-if="project.tags && project.tags.length">
+          <span v-for="tag in project.tags" :key="tag" class="project-tag">{{ tag }}</span>
+        </div>
         <p class="project-description">{{ project.description }}</p>
       </div>
     </div>
     
     <div v-if="projects.length > initialCount" class="show-more no-print">
       <button @click="showAll = !showAll" class="show-more-btn">
-        {{ showAll ? '收起' : `展开更多 (${projects.length - initialCount})` }}
+        <span>{{ showAll ? '收起' : `展开更多项目` }}</span>
+        <svg 
+          class="show-more-icon" 
+          :class="{ 'rotate': showAll }"
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2"
+        >
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
       </button>
     </div>
   </section>
@@ -47,23 +66,24 @@ const displayedProjects = computed(() =>
 }
 
 .project-card {
-  padding: 16px;
+  padding: 18px;
   background: var(--bg-light);
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid var(--border-color);
-  transition: all 0.2s;
+  transition: all 0.25s ease;
 }
 
 .project-card:hover {
   border-color: var(--primary-color);
-  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+  transform: translateY(-2px);
 }
 
 .project-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   gap: 12px;
 }
 
@@ -72,21 +92,39 @@ const displayedProjects = computed(() =>
   font-weight: 600;
   color: var(--text-primary);
   flex: 1;
+  line-height: 1.4;
 }
 
 .project-period {
   color: var(--text-muted);
   font-size: 12px;
   white-space: nowrap;
-  padding: 2px 8px;
+  padding: 3px 10px;
   background: white;
   border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.project-tag {
+  padding: 2px 8px;
+  background: #dbeafe;
+  color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
 }
 
 .project-description {
   color: var(--text-secondary);
   font-size: 13px;
-  line-height: 1.6;
+  line-height: 1.65;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -95,23 +133,37 @@ const displayedProjects = computed(() =>
 
 .show-more {
   text-align: center;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 .show-more-btn {
-  padding: 8px 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 28px;
   background: white;
   border: 1px solid var(--border-color);
-  border-radius: 20px;
+  border-radius: 24px;
   color: var(--primary-color);
   font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .show-more-btn:hover {
-  background: var(--bg-light);
+  background: #eff6ff;
   border-color: var(--primary-color);
+}
+
+.show-more-icon {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+
+.show-more-icon.rotate {
+  transform: rotate(180deg);
 }
 
 @media (max-width: 768px) {
@@ -133,6 +185,11 @@ const displayedProjects = computed(() =>
 
   .project-description {
     -webkit-line-clamp: unset;
+  }
+
+  .project-card:hover {
+    transform: none;
+    box-shadow: none;
   }
 }
 </style>

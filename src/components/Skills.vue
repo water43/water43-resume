@@ -1,11 +1,22 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
-import type { Skill } from '../types/resume'
+
+interface Skill {
+  name: string
+  level: number
+  category?: string
+}
+
+interface SkillCategory {
+  title: string
+  items: string[]
+}
 
 const { t, tm } = useI18n()
 
 const skills = computed(() => tm('skills') as Skill[])
+const skillCategories = computed(() => tm('skillCategories') as Record<string, SkillCategory>)
 </script>
 
 <template>
@@ -31,29 +42,19 @@ const skills = computed(() => tm('skills') as Skill[])
       </div>
     </div>
     
-    <div class="skill-tags">
-      <span class="skill-tag">Vue.js</span>
-      <span class="skill-tag">TypeScript</span>
-      <span class="skill-tag">JavaScript</span>
-      <span class="skill-tag">React</span>
-      <span class="skill-tag">Angular</span>
-      <span class="skill-tag">Node.js</span>
-      <span class="skill-tag">Webpack</span>
-      <span class="skill-tag">Vite</span>
-      <span class="skill-tag">ECharts</span>
-      <span class="skill-tag">AntV</span>
-      <span class="skill-tag">Mapbox GL</span>
-      <span class="skill-tag">OpenLayers</span>
-      <span class="skill-tag">Turf.js</span>
-      <span class="skill-tag">WebGIS</span>
-      <span class="skill-tag">Element Plus</span>
-      <span class="skill-tag">Pinia</span>
-      <span class="skill-tag">Vuex</span>
-      <span class="skill-tag">qiankun</span>
-      <span class="skill-tag">Monorepo</span>
-      <span class="skill-tag">Git</span>
-      <span class="skill-tag">Docker</span>
-      <span class="skill-tag">Nginx</span>
+    <div class="skill-categories">
+      <div 
+        v-for="(category, key) in skillCategories" 
+        :key="key" 
+        class="skill-category"
+      >
+        <h4 class="category-title">{{ category.title }}</h4>
+        <div class="category-tags">
+          <span v-for="item in category.items" :key="item" class="skill-tag">
+            {{ item }}
+          </span>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -63,58 +64,80 @@ const skills = computed(() => tm('skills') as Skill[])
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .skill-item {
-  padding: 12px;
+  padding: 14px 16px;
   background: var(--bg-light);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .skill-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .skill-name {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-primary);
 }
 
 .skill-level {
   font-size: 12px;
-  color: var(--text-muted);
+  color: var(--primary-color);
+  font-weight: 500;
 }
 
 .skill-bar {
-  height: 6px;
+  height: 8px;
   background: #e5e7eb;
-  border-radius: 3px;
+  border-radius: 4px;
   overflow: hidden;
 }
 
 .skill-progress {
   height: 100%;
-  background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
-  border-radius: 3px;
-  transition: width 0.5s ease;
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
+  border-radius: 4px;
+  transition: width 0.6s ease;
 }
 
-.skill-tags {
+.skill-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.skill-category {
+  padding: 16px;
+  background: var(--bg-light);
+  border-radius: 10px;
+}
+
+.category-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.category-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .skill-tag {
-  padding: 6px 14px;
+  padding: 4px 10px;
   background: white;
   border: 1px solid var(--border-color);
-  border-radius: 20px;
-  font-size: 13px;
+  border-radius: 6px;
+  font-size: 12px;
   color: var(--text-secondary);
   transition: all 0.2s;
 }
@@ -129,21 +152,41 @@ const skills = computed(() => tm('skills') as Skill[])
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .skill-categories {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media print {
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .skill-item {
+    padding: 10px 12px;
+  }
+
+  .skill-categories {
+    grid-template-columns: repeat(5, 1fr);
     gap: 12px;
   }
 
-  .skill-tags {
-    gap: 6px;
+  .skill-category {
+    padding: 10px;
   }
 
   .skill-tag {
-    padding: 4px 10px;
-    font-size: 11px;
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+
+  .skill-tag:hover {
+    border-color: var(--border-color);
+    color: var(--text-secondary);
+    background: white;
   }
 }
 </style>
