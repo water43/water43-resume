@@ -125,10 +125,6 @@ const displayedProjects = computed(() =>
   color: var(--text-secondary);
   font-size: 13px;
   line-height: 1.65;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 
 .show-more {
