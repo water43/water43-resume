@@ -131,8 +131,8 @@ export const zh = {
       issuer: 'PMI'
     },
     {
-      name: '人工智能三级',
-      issuer: '工信部'
+      name: '人工智能训练师（三级）',
+      issuer: '国家市场监督管理总局'
     }
   ],
   skills: [

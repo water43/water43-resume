@@ -131,8 +131,8 @@ export const en = {
       issuer: 'PMI'
     },
     {
-      name: 'Artificial Intelligence Level 3',
-      issuer: 'MIIT'
+      name: 'AI Trainer (Level 3)',
+      issuer: 'SAMR - State Administration for Market Regulation'
     }
   ],
   skills: [
