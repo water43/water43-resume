@@ -3,7 +3,7 @@ export const zh = {
     name: '陈泽鑫',
     title: '高级前端开发工程师',
     targetPosition: '意向职位：前端开发（2万-3万·12薪）',
-    targetCity: '意向城市：深圳',
+    targetCity: '意向城市：广州/深圳',
     age: '31岁',
     experience: '11.5年经验',
     status: '在职-月内到岗',

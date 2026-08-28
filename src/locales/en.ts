@@ -3,7 +3,7 @@ export const en = {
     name: 'Chen Zexin',
     title: 'Senior Frontend Developer',
     targetPosition: 'Target: Frontend Developer (20K-30K RMB)',
-    targetCity: 'Target City: Shenzhen',
+    targetCity: 'Target City: Guangzhou/Shenzhen',
     age: '31 years old',
     experience: '11.5 years exp',
     status: 'Available in 1 month',
