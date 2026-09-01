@@ -11,7 +11,7 @@ export const zh = {
     phone: '15999562336',
     email: '776025632(at)qq.com',
     education: '本科',
-    summary: '专注于电力数字化、GIS可视化与数据大屏领域的高级前端开发工程师，持有 PMP 项目管理专业认证。精通 Vue3 + TypeScript 技术体系，具备大型企业级系统架构设计能力，参与过多个省级电网项目的前端建设。擅长 WebGIS 地图可视化、微前端架构与组件库建设，具有丰富的 ToB/ToG 项目交付经验。'
+    summary: '专注于电力数字化、GIS可视化与数据大屏领域的高级前端开发工程师，持有 PMP 项目管理专业认证。精通 Vue3 + TypeScript 技术体系，同时具备 React（Hooks / Context）实践能力，具备大型企业级系统架构设计能力，参与过多个省级电网项目的前端建设。擅长 WebGIS 地图可视化、微前端架构与组件库建设，具有丰富的 ToB/ToG 项目交付经验。'
   },
   sections: {
     experience: '工作经历',
@@ -30,6 +30,7 @@ export const zh = {
         '负责大型前端系统架构设计与模块拆分，支撑 10+ 业务系统并行开发',
         '主导 WebGIS 平台建设，集成 Mapbox/OpenLayers 双引擎，封装 50+ 空间分析能力',
         '推进 Vue3 + TypeScript 技术体系落地，制定团队开发规范与最佳实践',
+        '持续深化 React 技术栈实践，掌握 Hooks、Context、组件拆分与状态提升等核心范式',
         '负责组件库、SDK 与公共能力沉淀，输出 40+ 电力行业通用组件',
         '负责数据大屏、实时监控与地图联动开发，支持 1920×1080 大屏适配',
         '推进工程化优化与 qiankun 微前端架构，实现多项目独立部署与集成',
@@ -51,6 +52,12 @@ export const zh = {
   ],
   projects: [
     {
+      name: 'React Playground',
+      period: '2025.08 ~ 至今',
+      tags: ['React 19', 'TypeScript', 'Vite', 'Hooks'],
+      description: '基于 React 19 + TypeScript + Vite 的待办实践项目，系统演练 React 核心理念：组件拆分、Props/事件单向数据流、状态提升与自定义 Hook（useTodos）、受控组件、列表 key、条件渲染、派生状态、useEffect 副作用（localStorage / document.title）以及 Context 主题切换。开源地址：https://github.com/water43/react-playground'
+    },
+    {
       name: '电鸿新型电力系统生态孪生平台',
       period: '2026.01 ~ 至今',
       tags: ['Vue3', 'TypeScript', 'MapLibre', 'ECharts'],
@@ -66,7 +73,7 @@ export const zh = {
       name: '电力全景驾驶舱可视化平台',
       period: '2025.01 ~ 2025.12',
       tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: '面向省级电网规划、投资与建设管理的全景驾驶舱。覆盖新型电力系统指标、电网规划（主配网）、投资情况、项目建设全过程与成效、新能源接入、数据治理及一/二/三级预警等专题。采用 Vue3 + Vite + Pinia，基于 v-scale-screen 适配 1920×1080 大屏；ECharts（含水球图等）与 AntV 呈现指标、进度与治理完成度；Mapbox 支撑贵州网架全屏、多时态项目全景与地图编辑。'
+      description: '面向省级电网规划、投资与建设管理的全景驾驶舱。覆盖新型电力系统指标、电网规划（主配网）、投资情况、项目建设全过程与成效、新能源接入、数据治理及一/二/三级预警等专题。采用 Vue3 + Vite + Pinia，基于 v-scale-screen 适配 1920×1080 大屏；ECharts（含水球图等）与 AntV 呈现指标、进度与治理完成度；Mapbox 支撑网架全屏、多时态项目全景与地图编辑。'
     },
     {
       name: '电力配网状态估计可视化系统',
@@ -81,13 +88,13 @@ export const zh = {
       description: '基于 Monorepo 架构的企业级 GIS 解决方案，包含核心 SDK、Vue2/Vue3 组件库、文档站点及开发示例。底层采用 TypeScript + Webpack 构建，集成 Mapbox-GL 与 OpenLayers 双地图引擎，封装 Turf.js 实现 50+ 空间分析能力（缓冲区、叠加分析、拓扑判断等）。业务层提供 40+ 电力行业组件（设备卡片、停电分析、台风路径、气象专题等），支持 Vue2/Vue3 双版本并行。'
     },
     {
-      name: '华能山西虚拟电厂',
+      name: '****山西虚拟电厂',
       period: '2022.01 ~ 2024.02',
       tags: ['Vue2', 'Element UI', 'Vuex', 'ECharts'],
       description: '面向电力聚合商与虚拟电厂运营的 B 端综合管理平台，采用 Vue2 + Element UI + Vuex 技术栈。覆盖分布式资源（光伏、储能、充电桩、可调负荷）接入与聚合、需求响应交易申报、功率预测与基线管理、实时运行监视等核心业务模块。'
     },
     {
-      name: '南瑞国网PMS3.0的一张图项目',
+      name: '******PMS3.0的一张图项目',
       period: '2021.01 ~ 2021.08',
       tags: ['Vue', 'GIS', '微应用'],
       description: 'PMS是以设备管理和资产管理为基础，以提高输变电设施安全运行水平和供电可靠性为目标的电力设备资产管理系统。PMS3.0以电网资源业务中台为核心，向下广泛接入智能设备，汇聚物联感知数据，向上根据电网组织架构按需灵活定制微应用群，支撑现场作业、业务管控、分析决策、生态共享等业务开展。'
@@ -96,25 +103,25 @@ export const zh = {
       name: '电网综合服务平台',
       period: '2020.07 ~ 2021.07',
       tags: ['Vue3', 'Vite', '组件库'],
-      description: '面向南方电网业务场景的电网综合服务平台前端建设，以海南数字电网平台能力为底座，建设组件示例中心，沉淀沿布图、拓扑图、实时数据展示等典型场景的可复用模块。基于 Vue3 + Vite 按场景拆分封装地图、图表与业务卡片组件，配套示例页与接入文档。'
+      description: '面向****业务场景的电网综合服务平台前端建设，以海南数字电网平台能力为底座，建设组件示例中心，沉淀沿布图、拓扑图、实时数据展示等典型场景的可复用模块。基于 Vue3 + Vite 按场景拆分封装地图、图表与业务卡片组件，配套示例页与接入文档。'
     },
     {
-      name: '海研院博鳌保供电系统',
+      name: '***博鳌保供电系统',
       period: '2020.04 ~ 2022.01',
       tags: ['Vue', '保供电', '智能化'],
-      description: '针对海南自贸港建设重大活动保供电需求开发的智能化系统。全面推进保供电工作常态化、智能化、智慧化，覆盖博鳌亚洲论坛、文昌航天发射基地等重大活动的电力保障。'
+      description: '针对海南自贸港建设重大活动保供电需求开发的智能化系统。全面推进保供电工作常态化、智能化、智慧化，覆盖重大活动的电力保障。'
     },
     {
       name: '海南数字电网',
       period: '2019.07 ~ 2021.07',
       tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: '南方电网海南数字电网示范试点前端建设，承接智能电网与电网智能化、企业数字化目标，支撑生产营销数据质量提升、电网精益管理、规划辅助决策及全景电网模拟仿真。基于 Vue3 + Vite + Pinia 构建 1920 自适应大屏，ECharts/AntV 呈现新型电力系统指标、投资与建设全过程；Mapbox + Turf 实现电网沿布图、拓扑图与网架地理展示。'
+      description: '****海南数字电网示范试点前端建设，承接智能电网与电网智能化、企业数字化目标，支撑生产营销数据质量提升、电网精益管理、规划辅助决策及全景电网模拟仿真。基于 Vue3 + Vite + Pinia 构建 1920 自适应大屏，ECharts/AntV 呈现新型电力系统指标、投资与建设全过程；Mapbox + Turf 实现电网沿布图、拓扑图与网架地理展示。'
     },
     {
       name: '应急指挥平台',
       period: '2016.01 ~ 2018.01',
       tags: ['Vue', '地图', '实时监控'],
-      description: '南方电网应急指挥平台是为应对突发事件和灾害而建立的指挥中心。提供统一指挥调度、突发事件管理、应急资源调配、信息共享与通信、数据分析与预测等核心功能，确保电网的安全稳定运行，保障用户用电需求。'
+      description: '****应急指挥平台是为应对突发事件和灾害而建立的指挥中心。提供统一指挥调度、突发事件管理、应急资源调配、信息共享与通信、数据分析与预测等核心功能，确保电网的安全稳定运行，保障用户用电需求。'
     }
   ],
   education: [
@@ -138,7 +145,7 @@ export const zh = {
     { name: 'Vue.js', level: 95, category: 'framework' },
     { name: 'TypeScript', level: 90, category: 'language' },
     { name: 'JavaScript', level: 95, category: 'language' },
-    { name: 'React', level: 75, category: 'framework' },
+    { name: 'React', level: 85, category: 'framework' },
     { name: 'WebGIS', level: 92, category: 'domain' },
     { name: 'ECharts', level: 90, category: 'visualization' },
     { name: 'Mapbox GL', level: 88, category: 'gis' },
@@ -148,7 +155,7 @@ export const zh = {
   skillCategories: {
     frontend: {
       title: '前端框架',
-      items: ['Vue 2/3', 'React', 'Angular', 'TypeScript', 'JavaScript ES6+']
+      items: ['Vue 2/3', 'React 19', 'React Hooks', 'Context', 'TypeScript', 'JavaScript ES6+']
     },
     gis: {
       title: 'GIS & 可视化',
