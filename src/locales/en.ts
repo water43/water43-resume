@@ -11,7 +11,7 @@ export const en = {
     phone: '15999562336',
     email: '776025632(at)qq.com',
     education: 'Bachelor\'s Degree',
-    summary: 'Senior Frontend Developer specializing in power digitalization, GIS visualization, and data dashboards, PMP certified. Expert in Vue3 + TypeScript ecosystem with enterprise architecture design capabilities. Participated in frontend development for multiple provincial power grid projects. Skilled in WebGIS map visualization, micro-frontend architecture, and component library development with extensive ToB/ToG project delivery experience.'
+    summary: 'Senior Frontend Developer specializing in power digitalization, GIS visualization, and data dashboards, PMP certified. Expert in Vue3 + TypeScript ecosystem with hands-on React (Hooks / Context) practice, and enterprise architecture design capabilities. Participated in frontend development for multiple provincial power grid projects. Skilled in WebGIS map visualization, micro-frontend architecture, and component library development with extensive ToB/ToG project delivery experience.'
   },
   sections: {
     experience: 'Work Experience',
@@ -30,6 +30,7 @@ export const en = {
         'Design large-scale frontend architecture and module splitting, supporting 10+ parallel business systems',
         'Lead WebGIS platform development, integrating Mapbox/OpenLayers dual engines with 50+ spatial analysis capabilities',
         'Drive Vue3 + TypeScript adoption, establishing team development standards and best practices',
+        'Deepen React practice covering Hooks, Context, component composition and state lifting',
         'Build component library, SDK and common capabilities, delivering 40+ power industry components',
         'Develop data dashboards, real-time monitoring with map integration, supporting 1920×1080 large screen adaptation',
         'Implement qiankun micro-frontend architecture, enabling independent deployment and integration',
@@ -50,6 +51,12 @@ export const en = {
     }
   ],
   projects: [
+    {
+      name: 'React Playground',
+      period: '2025.08 - Present',
+      tags: ['React 19', 'TypeScript', 'Vite', 'Hooks'],
+      description: 'Todo practice project built with React 19 + TypeScript + Vite, systematically covering React core concepts: component composition, props/events unidirectional data flow, state lifting and custom Hook (useTodos), controlled components, list keys, conditional rendering, derived state, useEffect side effects (localStorage / document.title), and Context-based theme switching. Repo: https://github.com/water43/react-playground'
+    },
     {
       name: 'DianhongOS Digital Twin Platform',
       period: '2026.01 - Present',
@@ -81,13 +88,13 @@ export const en = {
       description: 'Enterprise-grade GIS solution based on Monorepo architecture with core SDK, Vue2/Vue3 component libraries, and documentation. Built with TypeScript + Webpack, integrating dual map engines with 50+ spatial analysis capabilities and 40+ power industry components.'
     },
     {
-      name: 'Huaneng Shanxi Virtual Power Plant',
+      name: '**** Shanxi Virtual Power Plant',
       period: '2022.01 - 2024.02',
       tags: ['Vue2', 'Element UI', 'Vuex', 'ECharts'],
       description: 'B2B management platform for power aggregators and virtual power plant operations. Covers distributed resource access (PV, storage, charging stations), demand response trading, power prediction and baseline management, real-time operation monitoring.'
     },
     {
-      name: 'NARI State Grid PMS3.0 One Map',
+      name: '****** PMS3.0 One Map',
       period: '2021.01 - 2021.08',
       tags: ['Vue', 'GIS', 'Micro Apps'],
       description: 'Power equipment asset management system focused on transmission facility safety and power supply reliability. PMS3.0 features grid resource business middle platform, connecting intelligent devices and aggregating IoT data for field operations and decision analysis.'
@@ -96,25 +103,25 @@ export const en = {
       name: 'Power Grid Service Platform',
       period: '2020.07 - 2021.07',
       tags: ['Vue3', 'Vite', 'Component Library'],
-      description: 'Frontend construction for Southern Power Grid service platform based on Hainan Digital Power Grid capabilities. Built component example center with reusable modules for routing diagrams, topology diagrams, and real-time data display using Vue3 + Vite.'
+      description: 'Frontend construction for **** service platform based on Hainan Digital Power Grid capabilities. Built component example center with reusable modules for routing diagrams, topology diagrams, and real-time data display using Vue3 + Vite.'
     },
     {
-      name: 'Boao Power Supply System',
+      name: '*** Boao Power Supply System',
       period: '2020.04 - 2022.01',
       tags: ['Vue', 'Power Supply', 'Smart'],
-      description: 'Intelligent system for major activity power supply needs in Hainan Free Trade Port construction, covering Boao Forum for Asia and Wenchang Space Launch Base power protection.'
+      description: 'Intelligent system for major activity power supply needs in Hainan Free Trade Port construction, covering power protection for major events.'
     },
     {
       name: 'Hainan Digital Power Grid',
       period: '2019.07 - 2021.07',
       tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: 'Southern Power Grid Hainan digital pilot frontend supporting smart grid and enterprise digitalization. Built with Vue3 + Vite + Pinia for adaptive dashboard, ECharts/AntV for metrics visualization, Mapbox + Turf for grid geographic display.'
+      description: '**** Hainan digital pilot frontend supporting smart grid and enterprise digitalization. Built with Vue3 + Vite + Pinia for adaptive dashboard, ECharts/AntV for metrics visualization, Mapbox + Turf for grid geographic display.'
     },
     {
       name: 'Emergency Command Platform',
       period: '2016.01 - 2018.01',
       tags: ['Vue', 'Maps', 'Real-time'],
-      description: 'Southern Power Grid emergency command platform for responding to emergencies and disasters. Provides unified dispatch, emergency event management, resource allocation, information sharing, and data analysis for safe grid operation.'
+      description: '**** emergency command platform for responding to emergencies and disasters. Provides unified dispatch, emergency event management, resource allocation, information sharing, and data analysis for safe grid operation.'
     }
   ],
   education: [
@@ -138,7 +145,7 @@ export const en = {
     { name: 'Vue.js', level: 95, category: 'framework' },
     { name: 'TypeScript', level: 90, category: 'language' },
     { name: 'JavaScript', level: 95, category: 'language' },
-    { name: 'React', level: 75, category: 'framework' },
+    { name: 'React', level: 85, category: 'framework' },
     { name: 'WebGIS', level: 92, category: 'domain' },
     { name: 'ECharts', level: 90, category: 'visualization' },
     { name: 'Mapbox GL', level: 88, category: 'gis' },
@@ -148,7 +155,7 @@ export const en = {
   skillCategories: {
     frontend: {
       title: 'Frontend Frameworks',
-      items: ['Vue 2/3', 'React', 'Angular', 'TypeScript', 'JavaScript ES6+']
+      items: ['Vue 2/3', 'React 19', 'React Hooks', 'Context', 'TypeScript', 'JavaScript ES6+']
     },
     gis: {
       title: 'GIS & Visualization',
