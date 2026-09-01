@@ -11,7 +11,7 @@ export const en: ResumeLocale = {
     status: 'Available in 1 month',
     location: 'Guangzhou',
     phone: '15999562336',
-    email: '776025632(at)qq.com',
+    email: '15999562336@163.com',
     education: 'Bachelor\'s Degree',
     summary: 'Senior Frontend Developer specializing in power digitalization, GIS visualization, and data dashboards, PMP certified. Expert in Vue3 + TypeScript ecosystem with hands-on React (Hooks / Context) practice, and enterprise architecture design capabilities. Participated in frontend development for multiple provincial power grid projects. Skilled in WebGIS map visualization, micro-frontend architecture, and component library development with extensive ToB/ToG project delivery experience.'
   },
