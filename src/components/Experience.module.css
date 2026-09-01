@@ -1,48 +1,4 @@
-<script setup lang="ts">
-import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
-import type { Experience } from '../types/resume'
-
-const { t, tm } = useI18n()
-
-const experiences = computed(() => tm('experience') as Experience[])
-</script>
-
-<template>
-  <section class="section">
-    <h2 class="section-title">{{ t('sections.experience') }}</h2>
-    
-    <div class="experience-list">
-      <div 
-        v-for="(exp, index) in experiences" 
-        :key="index" 
-        class="experience-item"
-      >
-        <div class="timeline-dot"></div>
-        <div class="experience-content">
-          <div class="experience-header">
-            <div class="experience-main">
-              <h3 class="company">{{ exp.company }}</h3>
-              <span class="position">{{ exp.position }}</span>
-            </div>
-            <span class="period">{{ exp.period }}</span>
-          </div>
-          
-          <p class="description">{{ exp.description }}</p>
-          
-          <ul class="responsibilities">
-            <li v-for="(item, i) in exp.responsibilities" :key="i">
-              {{ item }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-</template>
-
-<style scoped>
-.experience-list {
+.experienceList {
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -50,7 +6,7 @@ const experiences = computed(() => tm('experience') as Experience[])
   padding-left: 24px;
 }
 
-.experience-list::before {
+.experienceList::before {
   content: '';
   position: absolute;
   left: 7px;
@@ -61,16 +17,16 @@ const experiences = computed(() => tm('experience') as Experience[])
   border-radius: 1px;
 }
 
-.experience-item {
+.experienceItem {
   position: relative;
   padding-bottom: 28px;
 }
 
-.experience-item:last-child {
+.experienceItem:last-child {
   padding-bottom: 0;
 }
 
-.timeline-dot {
+.timelineDot {
   position: absolute;
   left: -24px;
   top: 6px;
@@ -82,11 +38,11 @@ const experiences = computed(() => tm('experience') as Experience[])
   z-index: 1;
 }
 
-.experience-item:first-child .timeline-dot {
+.experienceItem:first-child .timelineDot {
   background: var(--primary-color);
 }
 
-.experience-content {
+.experienceContent {
   padding: 20px;
   background: var(--bg-light);
   border-radius: 10px;
@@ -94,12 +50,12 @@ const experiences = computed(() => tm('experience') as Experience[])
   transition: all 0.2s;
 }
 
-.experience-content:hover {
+.experienceContent:hover {
   border-color: #bfdbfe;
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.08);
 }
 
-.experience-header {
+.experienceHeader {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -108,7 +64,7 @@ const experiences = computed(() => tm('experience') as Experience[])
   gap: 10px;
 }
 
-.experience-main {
+.experienceMain {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -170,20 +126,20 @@ const experiences = computed(() => tm('experience') as Experience[])
 }
 
 @media (max-width: 768px) {
-  .experience-header {
+  .experienceHeader {
     flex-direction: column;
   }
 
-  .experience-main {
+  .experienceMain {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .experience-list {
+  .experienceList {
     padding-left: 20px;
   }
 
-  .timeline-dot {
+  .timelineDot {
     left: -20px;
     width: 14px;
     height: 14px;
@@ -191,30 +147,29 @@ const experiences = computed(() => tm('experience') as Experience[])
 }
 
 @media print {
-  .experience-list {
+  .experienceList {
     padding-left: 0;
   }
 
-  .experience-list::before {
+  .experienceList::before {
     display: none;
   }
 
-  .timeline-dot {
+  .timelineDot {
     display: none;
   }
 
-  .experience-item {
+  .experienceItem {
     padding-bottom: 16px;
   }
 
-  .experience-content {
+  .experienceContent {
     padding: 14px 16px;
     break-inside: avoid;
   }
 
-  .experience-content:hover {
+  .experienceContent:hover {
     box-shadow: none;
     border-color: var(--border-color);
   }
 }
-</style>

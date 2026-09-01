@@ -1,12 +1,12 @@
 # 陈泽鑫 - 个人简历网站
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Vue-3.4-4FC08D?style=flat-square&logo=vue.js" alt="Vue 3" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react" alt="React 19" />
   <img src="https://img.shields.io/badge/TypeScript-5.4-3178C6?style=flat-square&logo=typescript" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Vite-5.1-646CFF?style=flat-square&logo=vite" alt="Vite" />
 </p>
 
-一个基于 Vue 3 + TypeScript + Vite 构建的现代化在线简历网站，支持中英文切换和打印/PDF导出功能。
+一个基于 React + TypeScript + Vite 构建的现代化在线简历网站，支持中英文切换和打印/PDF导出功能。
 
 ## ✨ 特性
 
@@ -51,17 +51,22 @@ npm run preview
 ├── public/
 │   └── favicon.svg          # 网站图标
 ├── src/
-│   ├── components/          # Vue 组件
-│   │   ├── ResumeHeader.vue # 简历头部
-│   │   ├── Experience.vue   # 工作经历
-│   │   ├── Projects.vue     # 项目经历
-│   │   ├── Education.vue    # 教育背景
-│   │   └── Skills.vue       # 专业技能
+│   ├── components/          # React 组件
+│   │   ├── ResumeHeader.tsx # 简历头部
+│   │   ├── Experience.tsx   # 工作经历
+│   │   ├── Projects.tsx     # 项目经历
+│   │   ├── Education.tsx    # 教育背景
+│   │   ├── Certificates.tsx # 专业证书
+│   │   └── Skills.tsx       # 专业技能
+│   ├── i18n/
+│   │   └── LocaleContext.tsx # 中英文 Context
 │   ├── locales/             # 国际化文件
 │   │   ├── zh.ts            # 中文
 │   │   └── en.ts            # 英文
-│   ├── App.vue              # 主应用组件
-│   ├── main.ts              # 应用入口
+│   ├── types/
+│   │   └── resume.ts        # 简历数据类型
+│   ├── App.tsx              # 主应用组件
+│   ├── main.tsx             # 应用入口
 │   └── style.css            # 全局样式
 ├── index.html               # HTML 模板
 ├── package.json             # 项目配置
@@ -82,6 +87,7 @@ npm run preview
 - `experience` - 工作经历
 - `projects` - 项目经历
 - `education` - 教育背景
+- `certificates` - 专业证书
 - `skills` - 专业技能
 
 ## 🖨️ 导出 PDF
@@ -113,11 +119,11 @@ npm run preview
 
 ## 🛠️ 技术栈
 
-- **框架**: Vue 3 (Composition API)
+- **框架**: React 19
 - **语言**: TypeScript
 - **构建工具**: Vite
-- **国际化**: vue-i18n
-- **样式**: CSS3 (CSS Variables, Flexbox, Grid)
+- **国际化**: React Context
+- **样式**: CSS Modules + CSS Variables
 
 ## 📄 许可证
 

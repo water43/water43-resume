@@ -1,0 +1,129 @@
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.skillItem {
+  padding: 14px 16px;
+  background: var(--bg-light);
+  border-radius: 10px;
+}
+
+.skillHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skillName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.skillLevel {
+  font-size: 12px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.skillBar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skillProgress {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #2563eb 50%, #1d4ed8 100%);
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.skillCategories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.skillCategory {
+  padding: 16px;
+  background: var(--bg-light);
+  border-radius: 10px;
+}
+
+.categoryTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.categoryTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skillTag {
+  padding: 4px 10px;
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+}
+
+.skillTag:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: #eff6ff;
+}
+
+@media (max-width: 768px) {
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skillCategories {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media print {
+  .skillsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .skillItem {
+    padding: 10px 12px;
+  }
+
+  .skillCategories {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+  }
+
+  .skillCategory {
+    padding: 10px;
+  }
+
+  .skillTag {
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+
+  .skillTag:hover {
+    border-color: var(--border-color);
+    color: var(--text-secondary);
+    background: white;
+  }
+}

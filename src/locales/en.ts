@@ -1,4 +1,6 @@
-export const en = {
+import type { ResumeLocale } from '../types/resume'
+
+export const en: ResumeLocale = {
   header: {
     name: 'Chen Zexin',
     title: 'Senior Frontend Developer',
@@ -19,6 +21,12 @@ export const en = {
     education: 'Education',
     certificates: 'Certificates',
     skills: 'Professional Skills'
+  },
+  ui: {
+    print: 'Print / Export PDF',
+    expandProjects: 'Show more projects',
+    collapseProjects: 'Collapse',
+    footer: '© 2024 Chen Zexin | Built with React + TypeScript + Vite'
   },
   experience: [
     {

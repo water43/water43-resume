@@ -78,18 +78,6 @@ a:hover {
     display: none !important;
   }
 
-  .resume-container {
-    max-width: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .resume {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 20px;
-  }
-
   .section {
     break-inside: avoid;
     page-break-inside: avoid;
@@ -98,23 +86,5 @@ a:hover {
   @page {
     margin: 10mm;
     size: A4;
-  }
-}
-
-@media (max-width: 768px) {
-  .resume-container {
-    padding: 12px;
-  }
-
-  .resume {
-    padding: 24px;
-  }
-
-  .toolbar {
-    flex-direction: column;
-  }
-
-  .btn {
-    width: 100%;
   }
 }

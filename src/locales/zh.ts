@@ -1,4 +1,6 @@
-export const zh = {
+import type { ResumeLocale } from '../types/resume'
+
+export const zh: ResumeLocale = {
   header: {
     name: '陈泽鑫',
     title: '高级前端开发工程师',
@@ -19,6 +21,12 @@ export const zh = {
     education: '教育经历',
     certificates: '专业证书',
     skills: '专业技能'
+  },
+  ui: {
+    print: '打印 / 导出 PDF',
+    expandProjects: '展开更多项目',
+    collapseProjects: '收起',
+    footer: '© 2024 陈泽鑫 | Built with React + TypeScript + Vite'
   },
   experience: [
     {
