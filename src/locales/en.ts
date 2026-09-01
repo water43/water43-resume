@@ -66,6 +66,12 @@ export const en: ResumeLocale = {
       description: 'Todo practice project built with React 19 + TypeScript + Vite, systematically covering React core concepts: component composition, props/events unidirectional data flow, state lifting and custom Hook (useTodos), controlled components, list keys, conditional rendering, derived state, useEffect side effects (localStorage / document.title), and Context-based theme switching. Repo: https://github.com/water43/react-playground'
     },
     {
+      name: 'Personal Resume Website',
+      period: '2025.08 - Present',
+      tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
+      description: 'Online resume site built with React 19 + TypeScript + Vite, featuring Context-based zh/en switching, CSS Modules styling, and modular components (ResumeHeader, Experience, Projects, Education, Certificates, Skills). Content is data-driven via locale configs, with responsive layout and print/PDF export. Auto-deployed to GitHub Pages via GitHub Actions. Live: https://water43.github.io/water43-resume/  Repo: https://github.com/water43/water43-resume'
+    },
+    {
       name: 'DianhongOS Digital Twin Platform',
       period: '2026.01 - Present',
       tags: ['Vue3', 'TypeScript', 'MapLibre', 'ECharts'],

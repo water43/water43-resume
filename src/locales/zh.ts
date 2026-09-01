@@ -66,6 +66,12 @@ export const zh: ResumeLocale = {
       description: '基于 React 19 + TypeScript + Vite 的待办实践项目，系统演练 React 核心理念：组件拆分、Props/事件单向数据流、状态提升与自定义 Hook（useTodos）、受控组件、列表 key、条件渲染、派生状态、useEffect 副作用（localStorage / document.title）以及 Context 主题切换。开源地址：https://github.com/water43/react-playground'
     },
     {
+      name: '个人简历网站',
+      period: '2025.08 ~ 至今',
+      tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
+      description: '基于 React 19 + TypeScript + Vite 构建的在线简历站点，采用 Context 实现中英文切换，CSS Modules 模块化样式，按模块拆分 ResumeHeader、Experience、Projects、Education、Certificates、Skills 等组件；简历内容数据驱动（locales 配置），支持响应式布局与打印/PDF 导出，通过 GitHub Actions 自动部署至 GitHub Pages。在线地址：https://water43.github.io/water43-resume/  开源地址：https://github.com/water43/water43-resume'
+    },
+    {
       name: '电鸿新型电力系统生态孪生平台',
       period: '2026.01 ~ 至今',
       tags: ['Vue3', 'TypeScript', 'MapLibre', 'ECharts'],
