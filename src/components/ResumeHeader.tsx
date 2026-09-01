@@ -11,7 +11,6 @@ export default function ResumeHeader() {
         <div className={styles.avatar}>{t.header.name.charAt(0)}</div>
         <div className={styles.headerInfo}>
           <h1 className={styles.name}>{t.header.name}</h1>
-          <p className={styles.title}>{t.header.title}</p>
           <div className={styles.tags}>
             <span className={`${styles.tag} ${styles.tagPrimary}`}>
               {t.header.targetPosition}
