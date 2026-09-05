@@ -4,7 +4,7 @@ export const zh: ResumeLocale = {
   header: {
     name: '陈泽鑫',
     title: '高级前端开发工程师',
-    targetPosition: '意向职位：前端开发（2万-3万·12薪）',
+    targetPosition: '意向职位：前端开发（薪资面议）',
     targetCity: '意向城市：广州/深圳',
     age: '31岁',
     experience: '11.5年经验',
@@ -13,7 +13,7 @@ export const zh: ResumeLocale = {
     phone: '15999562336',
     email: '15999562336@163.com',
     education: '本科',
-    summary: '专注于电力数字化、GIS可视化与数据大屏领域的高级前端开发工程师，持有 PMP 项目管理专业认证。精通 Vue3 + TypeScript 技术体系，同时具备 React（Hooks / Context）实践能力，具备大型企业级系统架构设计能力，参与过多个省级电网项目的前端建设。擅长 WebGIS 地图可视化、微前端架构与组件库建设，具有丰富的 ToB/ToG 项目交付经验。'
+    summary: '专注电力数字化、WebGIS 与数据大屏的高级前端，持有 PMP 认证。精通 Vue3 + TypeScript，具备 React 工程实践，主导过企业级 GIS 平台与多个省级电网前端交付。擅长地图可视化、微前端与组件库建设，熟悉 ToB/ToG 项目落地，求职意向广州/深圳，薪资面议。'
   },
   sections: {
     experience: '工作经历',

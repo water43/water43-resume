@@ -4,7 +4,7 @@ export const en: ResumeLocale = {
   header: {
     name: 'Chen Zexin',
     title: 'Senior Frontend Developer',
-    targetPosition: 'Target: Frontend Developer (20K-30K RMB)',
+    targetPosition: 'Target: Frontend Developer (Salary Negotiable)',
     targetCity: 'Target City: Guangzhou/Shenzhen',
     age: '31 years old',
     experience: '11.5 years exp',
@@ -13,7 +13,7 @@ export const en: ResumeLocale = {
     phone: '15999562336',
     email: '15999562336@163.com',
     education: 'Bachelor\'s Degree',
-    summary: 'Senior Frontend Developer specializing in power digitalization, GIS visualization, and data dashboards, PMP certified. Expert in Vue3 + TypeScript ecosystem with hands-on React (Hooks / Context) practice, and enterprise architecture design capabilities. Participated in frontend development for multiple provincial power grid projects. Skilled in WebGIS map visualization, micro-frontend architecture, and component library development with extensive ToB/ToG project delivery experience.'
+    summary: 'Senior frontend engineer focused on power digitalization, WebGIS and data dashboards, PMP certified. Expert in Vue3 + TypeScript with hands-on React engineering practice; led enterprise GIS platforms and multiple provincial grid frontend deliveries. Strong in map visualization, micro-frontends and component libraries for ToB/ToG projects. Open to Guangzhou/Shenzhen roles; salary negotiable.'
   },
   sections: {
     experience: 'Work Experience',
