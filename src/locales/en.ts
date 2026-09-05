@@ -60,16 +60,10 @@ export const en: ResumeLocale = {
   ],
   projects: [
     {
-      name: 'React Playground',
-      period: '2025.08 - Present',
-      tags: ['React 19', 'TypeScript', 'Vite', 'Hooks'],
-      description: 'Todo practice project built with React 19 + TypeScript + Vite, systematically covering React core concepts: component composition, props/events unidirectional data flow, state lifting and custom Hook (useTodos), controlled components, list keys, conditional rendering, derived state, useEffect side effects (localStorage / document.title), and Context-based theme switching. Repo: https://github.com/water43/react-playground'
-    },
-    {
-      name: 'Personal Resume Website',
-      period: '2025.08 - Present',
-      tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
-      description: 'Online resume site built with React 19 + TypeScript + Vite, featuring Context-based zh/en switching, CSS Modules styling, and modular components (ResumeHeader, Experience, Projects, Education, Certificates, Skills). Content is data-driven via locale configs, with responsive layout and print/PDF export. Auto-deployed to GitHub Pages via GitHub Actions. Live: https://water43.github.io/water43-resume/  Repo: https://github.com/water43/water43-resume'
+      name: 'WebGIS Platform',
+      period: '2024.01 - Present',
+      tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
+      description: 'Enterprise-grade GIS solution based on Monorepo architecture with core SDK, Vue2/Vue3 component libraries, and documentation. Built with TypeScript + Webpack, integrating dual map engines with 50+ spatial analysis capabilities and 40+ power industry components.'
     },
     {
       name: 'DianhongOS Digital Twin Platform',
@@ -90,54 +84,13 @@ export const en: ResumeLocale = {
       description: 'Panoramic cockpit for provincial power grid planning, investment and construction management. Covers new power system metrics, grid planning, investment status, project processes, new energy access, and multi-level early warnings. Built with Vue3 + Vite + Pinia featuring v-scale-screen for 1920×1080 adaptation.'
     },
     {
-      name: 'Distribution Network State Estimation System',
-      period: '2024.01 - 2024.12',
-      tags: ['Vue3', 'TypeScript', 'Amap', 'qiankun'],
-      description: 'Frontend system for power distribution network state estimation and monitoring. Built with Vue3, TypeScript, Vite, integrated with Amap for spatial display of feeders and substations with operation and anomaly monitoring. Features state estimation overview and SVG single-line diagram display.'
-    },
-    {
-      name: 'WebGIS Platform',
-      period: '2024.01 - Present',
-      tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
-      description: 'Enterprise-grade GIS solution based on Monorepo architecture with core SDK, Vue2/Vue3 component libraries, and documentation. Built with TypeScript + Webpack, integrating dual map engines with 50+ spatial analysis capabilities and 40+ power industry components.'
-    },
-    {
-      name: '**** Shanxi Virtual Power Plant',
-      period: '2022.01 - 2024.02',
-      tags: ['Vue2', 'Element UI', 'Vuex', 'ECharts'],
-      description: 'B2B management platform for power aggregators and virtual power plant operations. Covers distributed resource access (PV, storage, charging stations), demand response trading, power prediction and baseline management, real-time operation monitoring.'
-    },
-    {
-      name: '****** PMS3.0 One Map',
-      period: '2021.01 - 2021.08',
-      tags: ['Vue', 'GIS', 'Micro Apps'],
-      description: 'Power equipment asset management system focused on transmission facility safety and power supply reliability. PMS3.0 features grid resource business middle platform, connecting intelligent devices and aggregating IoT data for field operations and decision analysis.'
-    },
-    {
-      name: 'Power Grid Service Platform',
-      period: '2020.07 - 2021.07',
-      tags: ['Vue3', 'Vite', 'Component Library'],
-      description: 'Frontend construction for **** service platform based on Hainan Digital Power Grid capabilities. Built component example center with reusable modules for routing diagrams, topology diagrams, and real-time data display using Vue3 + Vite.'
-    },
-    {
-      name: '*** Boao Power Supply System',
-      period: '2020.04 - 2022.01',
-      tags: ['Vue', 'Power Supply', 'Smart'],
-      description: 'Intelligent system for major activity power supply needs in Hainan Free Trade Port construction, covering power protection for major events.'
-    },
-    {
-      name: 'Hainan Digital Power Grid',
-      period: '2019.07 - 2021.07',
-      tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: '**** Hainan digital pilot frontend supporting smart grid and enterprise digitalization. Built with Vue3 + Vite + Pinia for adaptive dashboard, ECharts/AntV for metrics visualization, Mapbox + Turf for grid geographic display.'
-    },
-    {
-      name: 'Emergency Command Platform',
-      period: '2016.01 - 2018.01',
-      tags: ['Vue', 'Maps', 'Real-time'],
-      description: '**** emergency command platform for responding to emergencies and disasters. Provides unified dispatch, emergency event management, resource allocation, information sharing, and data analysis for safe grid operation.'
+      name: 'Personal Resume Website',
+      period: '2025.08 - Present',
+      tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
+      description: 'Online resume site built with React 19 + TypeScript + Vite, featuring Context-based zh/en switching, CSS Modules styling, and modular components (ResumeHeader, Experience, Projects, Education, Certificates, Skills). Content is data-driven via locale configs, with responsive layout and print/PDF export. Auto-deployed to GitHub Pages via GitHub Actions. Live: https://water43.github.io/water43-resume/  Repo: https://github.com/water43/water43-resume'
     }
   ],
+
   education: [
     {
       school: 'South China Normal University',
