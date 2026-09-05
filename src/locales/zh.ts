@@ -33,28 +33,28 @@ export const zh: ResumeLocale = {
       company: '北京国科恒通科技股份有限公司广州分公司',
       period: '2019.05 ~ 至今',
       position: '高级前端开发',
-      description: '负责电力数字化、GIS可视化、数字孪生及数据大屏相关系统开发，参与多个省级电网与能源行业项目建设。',
+      description: '聚焦电力数字化、WebGIS 与数据大屏方向，参与多个省级电网与能源行业前端交付，沉淀可复用 GIS 与可视化能力。',
       responsibilities: [
-        '负责大型前端系统架构设计与模块拆分，支撑 10+ 业务系统并行开发',
-        '主导 WebGIS 平台建设，集成 Mapbox/OpenLayers 双引擎，封装 50+ 空间分析能力',
-        '推进 Vue3 + TypeScript 技术体系落地，制定团队开发规范与最佳实践',
-        '持续深化 React 技术栈实践，掌握 Hooks、Context、组件拆分与状态提升等核心范式',
-        '负责组件库、SDK 与公共能力沉淀，输出 40+ 电力行业通用组件',
-        '负责数据大屏、实时监控与地图联动开发，支持 1920×1080 大屏适配',
-        '推进工程化优化与 qiankun 微前端架构，实现多项目独立部署与集成',
-        '与后端、产品、运维协同完成项目交付，参与技术方案评审与需求分析'
+        '设计并落地大型前端架构与模块拆分方案，支撑 10+ 业务系统并行迭代与稳定交付',
+        '主导 WebGIS Monorepo 平台建设，打通 Mapbox/OpenLayers 双引擎与 50+ 空间分析能力，复用于多条业务线',
+        '推动 Vue3 + TypeScript 工程化落地，建立编码规范与组件规范，降低跨项目协作成本',
+        '以 React Hooks / Context 完成工程化实践，沉淀可上线的简历站点与 CI/CD 发布流程',
+        '沉淀组件库与 SDK，输出 40+ 电力行业通用组件，减少重复开发并统一交互体验',
+        '打造 1920×1080 数据大屏与地图联动监控能力，服务规划投资与运行监视等核心场景',
+        '落地 qiankun 微前端与构建优化（Vite/Rspack），实现多应用独立部署与按需集成',
+        '协同后端、产品、运维完成方案评审与上线交付，保障省级项目按期落地'
       ]
     },
     {
       company: '琪信通达(北京)科技有限公司',
       period: '2017.01 ~ 2019.06',
       position: 'Web前端开发',
-      description: '负责企业级前端系统与应急指挥平台开发，参与南方电网相关业务系统建设。',
+      description: '参与企业级前端与应急指挥类系统建设，完成政企场景下的可视化与权限能力交付。',
       responsibilities: [
-        '负责 Vue 前端页面与业务模块开发，完成 20+ 功能模块交付',
-        '负责地图展示与数据可视化开发，实现台风路径、停电范围等专题展示',
-        '负责权限系统与组件封装，构建可复用的业务组件库',
-        '参与大型政企项目交付与维护，积累 ToB/ToG 项目经验'
+        '基于 Vue 完成 20+ 业务模块交付，覆盖指挥调度与日常运维核心流程',
+        '实现台风路径、停电范围等地图专题可视化，支撑应急研判与业务展示',
+        '封装权限体系与业务组件库，提升页面复用率与后续维护效率',
+        '参与大型政企项目联调上线与持续维护，积累 ToB/ToG 交付经验'
       ]
     }
   ],
@@ -63,31 +63,31 @@ export const zh: ResumeLocale = {
       name: 'WebGIS 地理信息平台',
       period: '2024.01 ~ 至今',
       tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
-      description: '基于 Monorepo 架构的企业级 GIS 解决方案，包含核心 SDK、Vue2/Vue3 组件库、文档站点及开发示例。底层采用 TypeScript + Webpack 构建，集成 Mapbox-GL 与 OpenLayers 双地图引擎，封装 Turf.js 实现 50+ 空间分析能力（缓冲区、叠加分析、拓扑判断等）。业务层提供 40+ 电力行业组件（设备卡片、停电分析、台风路径、气象专题等），支持 Vue2/Vue3 双版本并行。'
+      description: '企业级 GIS 中台能力建设：基于 Monorepo 沉淀核心 SDK、Vue2/Vue3 组件库与文档站点；集成 Mapbox-GL / OpenLayers 双引擎，封装 Turf.js 50+ 空间分析能力，沉淀 40+ 电力行业组件。成果：支撑 10+ 业务系统复用同一套 GIS 能力，显著降低跨项目地图开发成本。职责：架构设计与核心 SDK / 组件库建设。'
     },
     {
       name: '电鸿新型电力系统生态孪生平台',
       period: '2026.01 ~ 至今',
       tags: ['Vue3', 'TypeScript', 'MapLibre', 'ECharts'],
-      description: '面向新型电力系统物联网生态的数字孪生运营平台。采用 Vue3 + TypeScript + Vite Monorepo 与 Element Plus，建设多租户 RBAC 后台及平台门户大屏：MapLibre 地图展示终端分布与运行指标，ECharts 呈现租户增长、在线率、告警、网关/直连/子终端接入及 TOP 租户统计。系统侧覆盖租户、站点、用户、角色、菜单与动态权限。双 API 对接物联网与业务服务，支撑终端规模化监控与生态协同运营。'
+      description: '新型电力系统物联网数字孪生运营平台：Vue3 + TypeScript + Vite Monorepo 建设多租户 RBAC 后台与门户大屏，MapLibre 展示终端分布，ECharts 呈现增长、在线率、告警与接入统计。成果：支撑终端规模化监控与多租户协同运营，完成双 API 对接与动态权限体系落地。职责：前端架构与核心可视化模块开发。'
     },
     {
       name: '五个透明管控平台',
       period: '2025.10 ~ 至今',
       tags: ['Vue3', 'MapBox GL', 'qiankun', 'UnoCSS'],
-      description: '基于 Vue3 + TypeScript + MapBox GL 构建的电力设备可视化管控系统。集成二三维地图切换、地图钻取导航、设备树管理等功能，实现设备五态（运行、检修、故障等）实时监控与透明化展示。采用 ECharts 进行数据可视化大屏展示，支持三屏联动展示资产、运维、作业、环境等业务模块。使用 Vite 构建工具链、Pinia 状态管理、UnoCSS 原子化样式，通过 qiankun 微前端架构支持多环境部署。'
+      description: '电力设备可视化管控系统：基于 Vue3 + MapBox GL 实现二三维切换、钻取导航与设备五态监控，ECharts 三屏联动展示资产/运维/作业/环境。成果：通过 qiankun 完成多环境独立部署与集成，提升多专题并行交付效率。职责：地图可视化与微前端子应用核心开发。'
     },
     {
       name: '电力全景驾驶舱可视化平台',
       period: '2025.01 ~ 2025.12',
       tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: '面向省级电网规划、投资与建设管理的全景驾驶舱。覆盖新型电力系统指标、电网规划（主配网）、投资情况、项目建设全过程与成效、新能源接入、数据治理及一/二/三级预警等专题。采用 Vue3 + Vite + Pinia，基于 v-scale-screen 适配 1920×1080 大屏；ECharts（含水球图等）与 AntV 呈现指标、进度与治理完成度；Mapbox 支撑网架全屏、多时态项目全景与地图编辑。'
+      description: '省级电网规划投资建设全景驾驶舱：覆盖新型电力系统指标、主配网规划、投资建设全过程、新能源接入与多级预警；Vue3 + Pinia + v-scale-screen 适配 1920×1080，Mapbox 支撑网架全景与多时态编辑。成果：形成一屏总览 + 专题下钻的决策视图，服务省级规划与建设管理场景。职责：大屏架构与核心专题页开发。'
     },
     {
       name: '个人简历网站',
       period: '2025.08 ~ 至今',
       tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
-      description: '基于 React 19 + TypeScript + Vite 构建的在线简历站点，采用 Context 实现中英文切换，CSS Modules 模块化样式，按模块拆分 ResumeHeader、Experience、Projects、Education、Certificates、Skills 等组件；简历内容数据驱动（locales 配置），支持响应式布局与打印/PDF 导出，通过 GitHub Actions 自动部署至 GitHub Pages。在线地址：https://water43.github.io/water43-resume/  开源地址：https://github.com/water43/water43-resume'
+      description: 'React 工程化实践项目（非 Demo）：基于 React 19 + TypeScript + Vite 搭建可维护的在线简历系统，Context 实现中英文切换，CSS Modules 模块化样式，locales 数据驱动内容；拆分 Header / Experience / Projects 等业务组件，配套打印/PDF 导出与响应式布局，GitHub Actions 自动构建部署。成果：形成可公开访问的作品页，验证 React 工程落地能力。在线：https://water43.github.io/water43-resume/  仓库：https://github.com/water43/water43-resume'
     }
   ],
 

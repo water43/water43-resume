@@ -33,28 +33,28 @@ export const en: ResumeLocale = {
       company: 'Beijing Guoke Hengtong Technology Co., Ltd. (Guangzhou)',
       period: '2019.05 - Present',
       position: 'Senior Frontend Developer',
-      description: 'Responsible for power digitalization, GIS visualization, digital twin and data dashboard system development, participating in multiple provincial power grid and energy industry projects.',
+      description: 'Focused on power digitalization, WebGIS and data dashboards; delivered frontend systems for provincial grid and energy projects with reusable GIS/visualization capabilities.',
       responsibilities: [
-        'Design large-scale frontend architecture and module splitting, supporting 10+ parallel business systems',
-        'Lead WebGIS platform development, integrating Mapbox/OpenLayers dual engines with 50+ spatial analysis capabilities',
-        'Drive Vue3 + TypeScript adoption, establishing team development standards and best practices',
-        'Deepen React practice covering Hooks, Context, component composition and state lifting',
-        'Build component library, SDK and common capabilities, delivering 40+ power industry components',
-        'Develop data dashboards, real-time monitoring with map integration, supporting 1920×1080 large screen adaptation',
-        'Implement qiankun micro-frontend architecture, enabling independent deployment and integration',
-        'Collaborate with backend, product and operations teams, participating in technical reviews'
+        'Designed large-scale frontend architecture and module boundaries, enabling 10+ business systems to iterate in parallel',
+        'Led WebGIS Monorepo platform with Mapbox/OpenLayers dual engines and 50+ spatial analysis APIs reused across product lines',
+        'Rolled out Vue3 + TypeScript engineering standards, reducing cross-project collaboration cost',
+        'Delivered React Hooks/Context engineering practice via a production resume site with CI/CD publishing',
+        'Built component library/SDK with 40+ power-industry components, cutting duplicated UI work',
+        'Shipped 1920×1080 dashboards with map-linked monitoring for planning and operations scenarios',
+        'Implemented qiankun micro-frontends and build optimizations (Vite/Rspack) for independent deploy and on-demand integration',
+        'Partnered with backend/product/ops on reviews and releases to land provincial deliveries on schedule'
       ]
     },
     {
       company: 'Qixin Tongda (Beijing) Technology Co., Ltd.',
       period: '2017.01 - 2019.06',
       position: 'Web Frontend Developer',
-      description: 'Responsible for enterprise-level frontend systems and emergency command platform development, participating in Southern Power Grid business system construction.',
+      description: 'Built enterprise frontend and emergency-command systems, delivering visualization and permission capabilities for government/enterprise scenarios.',
       responsibilities: [
-        'Develop Vue frontend pages and business modules, delivering 20+ feature modules',
-        'Build map display and data visualization, implementing typhoon paths and outage range displays',
-        'Implement permission systems and component encapsulation, building reusable component library',
-        'Participate in large government and enterprise project delivery, gaining ToB/ToG experience'
+        'Delivered 20+ Vue business modules covering command dispatch and daily operations flows',
+        'Implemented map topics such as typhoon paths and outage ranges for emergency analysis',
+        'Encapsulated permission systems and reusable components to improve maintainability',
+        'Joined large ToB/ToG delivery, integration and long-term maintenance'
       ]
     }
   ],
@@ -63,31 +63,31 @@ export const en: ResumeLocale = {
       name: 'WebGIS Platform',
       period: '2024.01 - Present',
       tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
-      description: 'Enterprise-grade GIS solution based on Monorepo architecture with core SDK, Vue2/Vue3 component libraries, and documentation. Built with TypeScript + Webpack, integrating dual map engines with 50+ spatial analysis capabilities and 40+ power industry components.'
+      description: 'Enterprise GIS capability platform: Monorepo SDK + Vue2/Vue3 component libraries + docs; Mapbox-GL/OpenLayers dual engines with 50+ Turf spatial APIs and 40+ power components. Impact: reused by 10+ business systems, reducing duplicated map work. Role: architecture and core SDK/component library.'
     },
     {
       name: 'DianhongOS Digital Twin Platform',
       period: '2026.01 - Present',
       tags: ['Vue3', 'TypeScript', 'MapLibre', 'ECharts'],
-      description: 'Digital twin operation platform for new power system IoT ecosystem. Built with Vue3 + TypeScript + Vite Monorepo and Element Plus, featuring multi-tenant RBAC backend and portal dashboard: MapLibre map showing terminal distribution and operation metrics, ECharts displaying tenant growth, online rates, alerts, and device access statistics.'
+      description: 'Digital twin ops platform for new power IoT: Vue3 + TS + Vite Monorepo multi-tenant RBAC and portal dashboards; MapLibre terminal distribution, ECharts growth/online/alert/access metrics. Impact: scaled terminal monitoring with dual-API and dynamic permissions. Role: frontend architecture and core visualization modules.'
     },
     {
       name: 'Five Transparencies Control Platform',
       period: '2025.10 - Present',
       tags: ['Vue3', 'MapBox GL', 'qiankun', 'UnoCSS'],
-      description: 'Power equipment visualization control system built with Vue3 + TypeScript + MapBox GL. Integrates 2D/3D map switching, drill-down navigation, and device tree management, enabling real-time monitoring of five equipment states. Uses ECharts for data visualization dashboards with triple-screen linkage.'
+      description: 'Equipment visualization control system: Vue3 + MapBox GL for 2D/3D switch, drill-down and five-state monitoring; ECharts triple-screen for assets/ops/work/environment. Impact: qiankun multi-env independent deploy improved parallel delivery. Role: map visualization and micro-app core development.'
     },
     {
       name: 'Power Grid Panoramic Cockpit',
       period: '2025.01 - 2025.12',
       tags: ['Vue3', 'Mapbox', 'ECharts', 'AntV'],
-      description: 'Panoramic cockpit for provincial power grid planning, investment and construction management. Covers new power system metrics, grid planning, investment status, project processes, new energy access, and multi-level early warnings. Built with Vue3 + Vite + Pinia featuring v-scale-screen for 1920×1080 adaptation.'
+      description: 'Provincial planning/investment/construction cockpit covering metrics, grid planning, full project lifecycle, new energy and multi-level alerts; Vue3 + Pinia + v-scale-screen for 1920×1080, Mapbox for grid panorama. Impact: one-screen overview with topic drill-down for decision making. Role: dashboard architecture and core topic pages.'
     },
     {
       name: 'Personal Resume Website',
       period: '2025.08 - Present',
       tags: ['React 19', 'TypeScript', 'Vite', 'GitHub Pages'],
-      description: 'Online resume site built with React 19 + TypeScript + Vite, featuring Context-based zh/en switching, CSS Modules styling, and modular components (ResumeHeader, Experience, Projects, Education, Certificates, Skills). Content is data-driven via locale configs, with responsive layout and print/PDF export. Auto-deployed to GitHub Pages via GitHub Actions. Live: https://water43.github.io/water43-resume/  Repo: https://github.com/water43/water43-resume'
+      description: 'Production-oriented React engineering practice (not a toy demo): React 19 + TypeScript + Vite, Context i18n, CSS Modules, locale-driven content, modular business components, print/PDF and responsive layout, GitHub Actions CI/CD to Pages. Impact: public portfolio validating React delivery capability. Live: https://water43.github.io/water43-resume/  Repo: https://github.com/water43/water43-resume'
     }
   ],
 
