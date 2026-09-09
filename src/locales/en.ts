@@ -28,7 +28,7 @@ export const en: ResumeLocale = {
   experience: [
     {
       company: 'Power Technology Company (Guangzhou)',
-      period: '2019.05 - Present',
+      period: '2019.07 - Present',
       position: 'Senior Frontend Developer',
       description: 'Focused on power digitalization, WebGIS and data dashboards; delivered frontend systems for provincial grid and energy projects with reusable GIS/visualization capabilities.',
       responsibilities: [

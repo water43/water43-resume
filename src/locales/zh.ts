@@ -28,7 +28,7 @@ export const zh: ResumeLocale = {
   experience: [
     {
       company: '某电力科技公司（广州）',
-      period: '2019.05 ~ 至今',
+      period: '2019.07 ~ 至今',
       position: '高级前端开发',
       description: '聚焦电力数字化、WebGIS 与数据大屏方向，参与多个省级电网与能源行业前端交付，沉淀可复用 GIS 与可视化能力。',
       responsibilities: [
