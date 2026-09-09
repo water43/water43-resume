@@ -43,6 +43,8 @@ export interface Header {
   targetCity: string
   experience: string
   location: string
+  phone: string
+  email: string
   github: string
   education: string
   summary?: string
