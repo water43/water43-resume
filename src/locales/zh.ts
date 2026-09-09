@@ -8,6 +8,8 @@ export const zh: ResumeLocale = {
     targetCity: '意向城市：广州/深圳',
     experience: '9年+经验',
     location: '广州',
+    phone: '15999562336',
+    email: '15999562336@163.com',
     github: 'https://github.com/water43',
     education: '本科',
     summary: '专注电力数字化、WebGIS 与数据大屏的高级前端，持有 PMP 认证。精通 Vue3 + TypeScript，具备 React 工程实践，主导企业级 GIS 平台建设，参与多个省级电网项目交付。擅长地图可视化、微前端与组件库建设，熟悉 ToB/ToG 项目落地，求职意向广州/深圳，薪资面议。'
@@ -27,7 +29,7 @@ export const zh: ResumeLocale = {
   },
   experience: [
     {
-      company: '某电力科技公司（广州）',
+      company: '北京国科恒通科技股份有限公司广州分公司',
       period: '2019.07 ~ 至今',
       position: '高级前端开发',
       description: '聚焦电力数字化、WebGIS 与数据大屏方向，参与多个省级电网与能源行业前端交付，沉淀可复用 GIS 与可视化能力。',
@@ -42,7 +44,7 @@ export const zh: ResumeLocale = {
       ]
     },
     {
-      company: '某科技公司（北京）',
+      company: '琪信通达（北京）科技有限公司',
       period: '2017.01 ~ 2019.06',
       position: 'Web前端开发',
       description: '参与企业级前端与应急指挥类系统建设，完成政企场景下的可视化与权限能力交付。',
