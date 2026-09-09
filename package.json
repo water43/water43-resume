@@ -1,0 +1,22 @@
+{
+  "name": "chen-zexin-resume",
+  "version": "1.0.0",
+  "description": "陈泽鑫的个人简历网站 - Chen Zexin's Personal Resume Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6"
+  }
+}
