@@ -61,7 +61,10 @@ export const en: ResumeLocale = {
       name: 'Bestiary Catalog',
       period: '2026.09 - Present',
       tags: ['Next.js', 'React 19', 'Drizzle', 'PostgreSQL'],
-      description: 'Personal full-stack catalog: URL-shareable multi-filter list, detail pages and evolution relations; admin CRUD with cookie auth; embedded SVG-edit with DOMPurify sanitization before persist. Drizzle ORM with the same schema on local PGlite and production PostgreSQL. Repo: https://github.com/water43/bestiary'
+      description: 'Personal full-stack catalog: URL-shareable multi-filter list, detail pages and evolution relations; admin CRUD with cookie auth; embedded SVG-edit with DOMPurify sanitization before persist. Drizzle ORM with the same schema on local PGlite and production PostgreSQL.',
+      links: [
+        { label: 'Source code', url: 'https://github.com/water43/bestiary' }
+      ]
     },
     {
       name: 'WebGIS Platform',
