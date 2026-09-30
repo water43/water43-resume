@@ -4,7 +4,7 @@ export const zh: ResumeLocale = {
   header: {
     name: '陈泽鑫',
     title: '高级前端开发工程师',
-    targetPosition: '意向职位：前端开发（薪资面议）',
+    targetPosition: '意向职位：高级前端工程师｜Vue3 / TypeScript｜WebGIS / 数据可视化',
     targetCity: '意向城市：广州/深圳',
     experience: '9年+经验',
     location: '广州',
@@ -12,7 +12,7 @@ export const zh: ResumeLocale = {
     email: '15999562336@163.com',
     github: 'https://github.com/water43',
     education: '本科',
-    summary: '专注电力数字化、WebGIS 与数据大屏的高级前端，持有 PMP 认证。精通 Vue3 + TypeScript，具备 React 工程实践，主导企业级 GIS 平台建设，参与多个省级电网项目交付。擅长地图可视化、微前端与组件库建设，熟悉 ToB/ToG 项目落地，求职意向广州/深圳，薪资面议。'
+    summary: '9年+企业级前端开发经验，专注电力数字化、WebGIS 与数据可视化，持有 PMP 认证。精通 Vue3 + TypeScript，具备 React 工程实践；主导企业级 GIS 平台建设，参与多个省级电网项目交付。具备前端架构设计、微前端、组件库建设及跨团队协作能力，熟悉 ToB/ToG 项目全流程落地。'
   },
   sections: {
     experience: '工作经历',
@@ -32,7 +32,7 @@ export const zh: ResumeLocale = {
       company: '北京国科恒通科技股份有限公司广州分公司',
       period: '2019.07 ~ 至今',
       position: '高级前端开发',
-      description: '聚焦电力数字化、WebGIS 与数据大屏方向，参与多个省级电网与能源行业前端交付，沉淀可复用 GIS 与可视化能力。',
+      description: '负责电力数字化、WebGIS 与数据可视化方向的前端架构及核心模块建设，主导企业级 GIS 能力沉淀，参与多个省级电网与能源行业项目交付。',
       responsibilities: [
         '设计并落地大型前端架构与模块拆分方案，支撑多个业务系统并行迭代与稳定交付',
         '主导 WebGIS Monorepo 平台建设，打通 Mapbox/OpenLayers 双引擎与 50+ 空间分析能力，复用于多条业务线',

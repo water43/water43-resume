@@ -4,7 +4,7 @@ export const en: ResumeLocale = {
   header: {
     name: 'Chen Zexin',
     title: 'Senior Frontend Developer',
-    targetPosition: 'Target: Frontend Developer (Salary Negotiable)',
+    targetPosition: 'Target: Senior Frontend Engineer | Vue3 / TypeScript | WebGIS / Data Visualization',
     targetCity: 'Target City: Guangzhou/Shenzhen',
     experience: '9+ years exp',
     location: 'Guangzhou',
@@ -12,7 +12,7 @@ export const en: ResumeLocale = {
     email: '15999562336@163.com',
     github: 'https://github.com/water43',
     education: 'Bachelor\'s Degree',
-    summary: 'Senior frontend engineer focused on power digitalization, WebGIS and data dashboards, PMP certified. Expert in Vue3 + TypeScript with hands-on React engineering practice; led enterprise GIS platform development and participated in multiple provincial grid project deliveries. Strong in map visualization, micro-frontends and component libraries for ToB/ToG projects. Open to Guangzhou/Shenzhen roles; salary negotiable.'
+    summary: 'Senior frontend engineer with 9+ years of enterprise experience in power digitalization, WebGIS and data visualization, PMP certified. Expert in Vue3 + TypeScript with hands-on React engineering practice; led enterprise GIS platform development and contributed to multiple provincial grid deliveries. Experienced in frontend architecture, micro-frontends, component libraries and cross-functional delivery across ToB/ToG projects.'
   },
   sections: {
     experience: 'Work Experience',
@@ -32,7 +32,7 @@ export const en: ResumeLocale = {
       company: 'Beijing Guoke Hengtong Technology Co., Ltd. (Guangzhou Branch)',
       period: '2019.07 - Present',
       position: 'Senior Frontend Developer',
-      description: 'Focused on power digitalization, WebGIS and data dashboards; delivered frontend systems for provincial grid and energy projects with reusable GIS/visualization capabilities.',
+      description: 'Owned frontend architecture and core modules for power digitalization, WebGIS and data visualization; led reusable enterprise GIS capability development and contributed to provincial grid and energy deliveries.',
       responsibilities: [
         'Designed large-scale frontend architecture and module boundaries, enabling multiple business systems to iterate in parallel',
         'Led WebGIS Monorepo platform with Mapbox/OpenLayers dual engines and 50+ spatial analysis APIs reused across product lines',
