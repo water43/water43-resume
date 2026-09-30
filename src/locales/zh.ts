@@ -58,6 +58,12 @@ export const zh: ResumeLocale = {
   ],
   projects: [
     {
+      name: 'Bestiary 图鉴系统',
+      period: '2026.09 ~ 至今',
+      tags: ['Next.js', 'React 19', 'Drizzle', 'PostgreSQL'],
+      description: '个人全栈图鉴应用：多维筛选与 URL 可分享列表、详情与进化关系；管理端 Cookie 鉴权 CRUD；嵌入 SVG-edit，保存时经 DOMPurify 净化后落盘。数据层 Drizzle，本地 PGlite / 生产 PostgreSQL 同一套表结构。开源地址：https://github.com/water43/bestiary'
+    },
+    {
       name: 'WebGIS 地理信息平台',
       period: '2024.01 ~ 至今',
       tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
@@ -113,7 +119,7 @@ export const zh: ResumeLocale = {
   skillCategories: {
     frontend: {
       title: '核心前端',
-      items: ['Vue 2/3', 'TypeScript', 'JavaScript ES6+', 'React 19', 'React Hooks', 'Context']
+      items: ['Vue 2/3', 'TypeScript', 'JavaScript ES6+', 'React 19', 'Next.js', 'React Hooks', 'Context']
     },
     gis: {
       title: 'GIS & 可视化',

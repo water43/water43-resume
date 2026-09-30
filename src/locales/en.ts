@@ -58,11 +58,18 @@ export const en: ResumeLocale = {
   ],
   projects: [
     {
+      name: 'Bestiary Catalog',
+      period: '2026.09 - Present',
+      tags: ['Next.js', 'React 19', 'Drizzle', 'PostgreSQL'],
+      description: 'Personal full-stack catalog: URL-shareable multi-filter list, detail pages and evolution relations; admin CRUD with cookie auth; embedded SVG-edit with DOMPurify sanitization before persist. Drizzle ORM with the same schema on local PGlite and production PostgreSQL. Repo: https://github.com/water43/bestiary'
+    },
+    {
       name: 'WebGIS Platform',
       period: '2024.01 - Present',
       tags: ['Monorepo', 'Mapbox-GL', 'OpenLayers', 'Turf.js'],
       description: 'Enterprise GIS capability platform: Monorepo SDK + Vue2/Vue3 component libraries + docs; Mapbox-GL/OpenLayers dual engines with 50+ Turf spatial APIs, 40+ power components and 200+ example pages. Impact: reused by multiple business systems, reducing duplicated map work. Role: architecture and core SDK/component library.'
     },
+
     {
       name: 'New Power System Digital Twin Platform',
       period: '2026.01 - Present',
@@ -113,7 +120,7 @@ export const en: ResumeLocale = {
   skillCategories: {
     frontend: {
       title: 'Core Frontend',
-      items: ['Vue 2/3', 'TypeScript', 'JavaScript ES6+', 'React 19', 'React Hooks', 'Context']
+      items: ['Vue 2/3', 'TypeScript', 'JavaScript ES6+', 'React 19', 'Next.js', 'React Hooks', 'Context']
     },
     gis: {
       title: 'GIS & Visualization',
