@@ -12,7 +12,7 @@ export const zh: ResumeLocale = {
     email: '15999562336@163.com',
     github: 'https://github.com/water43',
     education: '本科',
-    summary: '9年+企业级前端开发经验，专注电力数字化、WebGIS 与数据可视化，持有 PMP 认证。精通 Vue3 + TypeScript，具备 React 工程实践；主导企业级 GIS 平台建设，参与多个省级电网项目交付。具备前端架构设计、微前端、组件库建设及跨团队协作能力，熟悉 ToB/ToG 项目全流程落地。'
+    summary: '9年+企业级前端开发经验，专注电力数字化、WebGIS 与数据可视化，具备前端架构、平台建设及大型政企项目交付经验。精通 Vue3 + TypeScript，具备 React 工程实践，持有 PMP 认证。'
   },
   sections: {
     experience: '工作经历',
@@ -35,9 +35,8 @@ export const zh: ResumeLocale = {
       description: '负责电力数字化、WebGIS 与数据可视化方向的前端架构及核心模块建设，主导企业级 GIS 能力沉淀，参与多个省级电网与能源行业项目交付。',
       responsibilities: [
         '设计并落地大型前端架构与模块拆分方案，支撑多个业务系统并行迭代与稳定交付',
-        '主导 WebGIS Monorepo 平台建设，打通 Mapbox/OpenLayers 双引擎与 50+ 空间分析能力，复用于多条业务线',
+        '主导 WebGIS Monorepo 平台建设，统一 Mapbox/OpenLayers 双引擎及 50+ 空间分析能力，沉淀 40+ 行业组件与 200+ 示例页面，供多个业务系统复用',
         '推动 Vue3 + TypeScript 工程化落地，建立编码规范与组件规范，降低跨项目协作成本',
-        '沉淀组件库与 SDK，输出 40+ 电力行业通用组件，减少重复开发并统一交互体验',
         '打造 1920×1080 数据大屏与地图联动监控能力，服务规划投资与运行监视等核心场景',
         '落地 qiankun 微前端与构建优化（Vite/Rspack），实现多应用独立部署与按需集成',
         '协同后端、产品、运维完成方案评审与上线交付，保障省级项目按期落地'

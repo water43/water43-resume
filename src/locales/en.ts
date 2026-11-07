@@ -12,7 +12,7 @@ export const en: ResumeLocale = {
     email: '15999562336@163.com',
     github: 'https://github.com/water43',
     education: 'Bachelor\'s Degree',
-    summary: 'Senior frontend engineer with 9+ years of enterprise experience in power digitalization, WebGIS and data visualization, PMP certified. Expert in Vue3 + TypeScript with hands-on React engineering practice; led enterprise GIS platform development and contributed to multiple provincial grid deliveries. Experienced in frontend architecture, micro-frontends, component libraries and cross-functional delivery across ToB/ToG projects.'
+    summary: 'Senior frontend engineer with 9+ years of enterprise experience specializing in power digitalization, WebGIS and data visualization, with proven frontend architecture, platform development and large-scale government/enterprise delivery experience. Expert in Vue3 + TypeScript with hands-on React engineering practice and PMP certification.'
   },
   sections: {
     experience: 'Work Experience',
@@ -35,9 +35,8 @@ export const en: ResumeLocale = {
       description: 'Owned frontend architecture and core modules for power digitalization, WebGIS and data visualization; led reusable enterprise GIS capability development and contributed to provincial grid and energy deliveries.',
       responsibilities: [
         'Designed large-scale frontend architecture and module boundaries, enabling multiple business systems to iterate in parallel',
-        'Led WebGIS Monorepo platform with Mapbox/OpenLayers dual engines and 50+ spatial analysis APIs reused across product lines',
+        'Led the WebGIS Monorepo platform, unified Mapbox/OpenLayers dual engines and 50+ spatial analysis capabilities, and delivered 40+ industry components and 200+ examples reused across multiple business systems',
         'Rolled out Vue3 + TypeScript engineering standards, reducing cross-project collaboration cost',
-        'Built component library/SDK with 40+ power-industry components, cutting duplicated UI work',
         'Shipped 1920×1080 dashboards with map-linked monitoring for planning and operations scenarios',
         'Implemented qiankun micro-frontends and build optimizations (Vite/Rspack) for independent deploy and on-demand integration',
         'Partnered with backend/product/ops on reviews and releases to land provincial deliveries on schedule'
